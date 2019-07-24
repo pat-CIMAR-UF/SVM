@@ -17,7 +17,7 @@ $ catkin_make
 ```
 
 # Run
-After catkin_make succeed, modify line 3 of online_learning/object3d_detector/launch/object3d_detector.launch, and make the value is the path where your bag files are located:
+After catkin_make succeed, modify 'line 3' of online_learning/object3d_detector/launch/object3d_detector.launch, and make the value is the path where your bag files are located:
 
 `<arg name="bag" value="/home/yq/Downloads/LCAS_20160523_1200_1218.bag"/>`
 
