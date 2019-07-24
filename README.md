@@ -27,9 +27,9 @@ $ sudo apt-get install ros-kinetic-velodyne*
 ```
 Now, the svm should be able to run:
 ```bash
-cd catkin_ws
-source devel/setup.bash
-roslaunch object3d_detector object3d_detector.launch
+$ cd catkin_ws
+$ source devel/setup.bash
+$ roslaunch object3d_detector object3d_detector.launch
 ```
 # Citation
 If you are considering using this code, please reference the following:
